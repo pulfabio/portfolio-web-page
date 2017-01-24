@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        freeCodeCamp - Personal Portfolio Web Page
+    </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+    <style type="text/css">
+
+        body {
+            position: relative;
+            padding-top: 50px;
+        }
+
+        .navbar {
+            background-color: #651a1a;
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .page-title {
+            font-weight: bold;
+            color: #000080;
+            text-shadow: 2px 2px lightgray;
+        }
+
+        .content {
+            background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/purty_wood.png");
+            color: #333333;
+            font-family: 'Righteous', cursive;
+        }
+
+        .navbar-brand {
+            font-family: 'Handlee', cursive;
+            font-size: 20px;
+        }
+
+        #about {
+            margin-top: 10px;
+        }
+
+        .skills-title {
+            font-weight: bold;
+            color: #000080;
+            text-shadow: 2px 2px lightgray;
+        }
+
+        .bio {
+            padding-top: 10px;
+        }
+
+        #portfolio {
+            margin-top: 50px;
+        }
+
+        #contact {
+            margin-top: 50px;
+        }
+
+        .bio-pic {
+            width: 400px;
+            height: 350px;
+            border: 2px solid lightgray;
+        }
+
+        .portfolio-title {
+            font-weight: bold;
+            color: #000080;
+            text-shadow: 2px 2px lightgray;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-item {
+            width: 300px;
+            height: 400px;
+        }
+
+        .portfolio-first-row {
+            margin-bottom: 50px;
+        }
+
+        .links-title {
+            font-weight: bold;
+            color: #000080;
+            text-shadow: 2px 2px lightgray;
+        }
+
+        .links-email {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .link-buttons {
+            margin-top: 20px;
+            margin-bottom: 200px;
+        }
+
+        .link-button {
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            font-family: 'Handlee', cursive;
+        }
+
+    </style>
+
+</head>
+<body data-spy="scroll" data-target="#navigation"> <!-- spyscroll for navbar -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header banner-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <p>spazio</p>
+              </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="navigation">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#about">About<span class="sr-only">(current)</span></a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid (Navbar) -->
+        </nav>
+
+        <div class="content">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div id="about">
+                        <div class="text-center">
+                            <h1 class="page-title">Spazio Web Design Studio</h1>
+                            <h3>Create Space For Growth</h3>
+                            <hr>
+                        </div> <!-- Headings -->
+                        <div class="bio">
+                            <div class="col-md-7">
+                                <div class="skills-title">
+                                    <h2>Cleanz</h2>
+                                </div>
+                                <div class="skills">
+                                    <h4>
+                                    Web Designer, Web Developer and Entrepreneur.
+                                    Currently working as part of a small team building Web and Mobile applications.<br>
+                                    Formerly worked as SAP Trainer, SAP Consultant and Pre-Sales Consultant.<br>
+                                    <br>
+                                    Competences:</h4>
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-spinner fa-spin"></i>
+                                            <h4>Languages and Frameworks:<br>
+                                            HTML, CSS, Bootstrap, Javascript, jQuery, AngularJS, Node.js, Python, Java, Mathlab/Octave.</h4>
+                                        </li>
+                                        <li><i class="fa-li fa fa-spinner fa-spin"></i>
+                                            <h4>Tools and expertise:<br>
+                                            GIT, Responsive Web Design, Team Leadership, Machine Learning, SAP.</h4>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> <!-- Skillset -->
+                            <div class="col-md-5">
+                                <div class="text-right">
+                                    <img src="https://c1.staticflickr.com/1/620/32320984881_798b0fcbd4_n.jpg" class="img-responsive img-circle bio-pic">
+                                </div>
+                            </div> <!-- Picture -->
+                        </div><!-- .bio -->
+                    </div><!-- #about -->
+                </div><!-- .col-10 -->
+            </div><!-- .row -->
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div id="portfolio">
+                        <div class="col-xs-12">
+                            <div class="portfolio-title text-center">
+                                <h2>Some of my recent work</h2>
+                            </div>
+                        </div><!-- .portfolio-title -->
+                        <div class="col-xs-12">
+                            <div class="row portfolio-first-row text-center">
+                                <div class="col-sm-4">
+                                    <img src="https://c2.staticflickr.com/6/5745/30622768381_99bfa63782_n.jpg" alt="volatile tunnel" class="img-responsive portfolio-item img-thumbnail">
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="https://c2.staticflickr.com/6/5469/30540062846_f3222c517d_m.jpg" alt="volatile tunnel" class="img-responsive portfolio-item img-thumbnail">
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="https://c2.staticflickr.com/6/5745/30674571566_cfe9a98d6a_m.jpg" alt="volatile tunnel" class="img-responsive portfolio-item img-thumbnail">
+                                </div>
+                            </div>
+                            <div class="row portfolio-second-row text-center">
+                                <div class="col-sm-4">
+                                    <img src="https://c2.staticflickr.com/6/5745/30557475585_388829beba_m.jpg" class="img-responsive portfolio-item img-thumbnail">
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="https://c1.staticflickr.com/9/8218/28030513313_97783426ee_m.jpg" class="img-responsive portfolio-item img-thumbnail">
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="https://c2.staticflickr.com/2/1519/25043439433_a8abf2d350_m.jpg" class="img-responsive portfolio-item img-thumbnail">
+                                </div>
+                            </div>
+                        </div><!-- .portfolio-content -->
+                    </div><!-- #portfolio -->
+                </div><!-- .col-10 -->
+            </div><!-- .row -->
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div id="contact">
+                        <div class="row">
+                            <div class="col-xs-9">
+                                <div class="links-title">
+                                    <h2>Connect with Spazio Web Development Studio</h2>
+                                </div>
+                                <div class="links-email">
+                                    <h3>cleanz@gmail.com</h3>
+                                </div>
+
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="link-buttons">
+                                    <div>
+                                        <a href="https://github.com/" target="_blank">
+                                            <span class="fa-stack fa-2x link-button">
+                                                <i class="fa fa-square-o fa-stack-2x"></i>
+                                                <i class="fa fa-github fa-stack-1x"></i>
+                                            </span>
+                                        </a><br>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.linkedin.com/" target="_blank">
+                                            <span class="fa-stack fa-2x link-button">
+                                                <i class="fa fa-square-o fa-stack-2x"></i>
+                                                <i class="fa fa-linkedin fa-stack-1x"></i>
+                                            </span>
+                                        </a><br>
+                                    </div>
+                                    <div>
+                                        <a href="https://twitter.com/" target="_blank">
+                                            <span class="fa-stack fa-2x link-button">
+                                                <i class="fa fa-square-o fa-stack-2x"></i>
+                                                <i class="fa fa-twitter fa-stack-1x"></i>
+                                            </span>
+                                        </a><br>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <span class="fa-stack fa-2x link-button">
+                                                <i class="fa fa-square-o fa-stack-2x"></i>
+                                                <i class="fa fa-facebook fa-stack-1x"></i>
+                                            </span>
+                                        </a><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .col-10 -->
+            </div><!-- .row -->
+        </div> <!-- .content -->
+        <div class="footer text-center">
+            <h4>spazio © 2017, all rights reserved</h4>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //Activate scrollspy for navbar
+            $('body').scrollspy({ target: '#navigation' });
+
+            //Activate and deactivate buttons animations
+            $(".link-button").mouseenter(function() {
+                $(this).addClass("animated shake");
+            });
+            $(".link-button").mouseleave(function() {
+                $(this).removeClass("animated shake");
+            });
+
+            //Add smooth transition to scrollspy
+            $("nav ul li a[href^='#']").on('click', function(e) {
+
+               // prevent default anchor click behavior
+               e.preventDefault();
+
+               // store hash
+               var hash = this.hash;
+
+               // animate
+               $('html, body').animate({
+                   scrollTop: $(hash).offset().top
+                }, 1000, function(){
+
+                   // when done, add hash to url
+                   // (default click behaviour)
+                   window.location.hash = hash;
+                 });
+
+            });
+        });
+    </script>
+
+    <!-- Removed in favor of scrollspy
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            $(".nav a").on("click", function(){
+               $(".nav").find(".active").removeClass("active");
+               $(this).parent().addClass("active");
+            });
+        });
+
+
+    </script> -->
+
+</body>
+</html>
